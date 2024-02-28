@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Aztech</title>
+	<link rel="stylesheet" href="stylecontact.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
+</head>
+<body>
+
+	<section class="header">
+		<nav>
+			<a href="index.html"><img src="images/BG2.0.jpg"></a>
+		<div class="nav-links" id="navLinks">
+			<i class="fa fa-times" onclick="hideMenu()"></i>
+		 <ul>
+		   <li><a href="index.html">Home</a></li>
+		   <li><a href="contact.html">Details</a></li>
+		   <li><a href="tutorial.html">Tutorial</a></li>
+		   <li><a href="Desktop.html">Desktop</a></li>
+		   <li><a href="Laptop.html">Laptop</a></li>
+		 	 </ul>
+		 	</div>
+			 <i class="fa fa-bars" onclick="showMenu()"></i>
+		</nav>
+
+		<h3 class="heading"><b>Info</b></h3>
+
+	
+	<div class="contact-info">
+		<div class="card">
+			<i class="card-icon far fa-envelope"></i>
+			<p>aztechgensan@gmail.com</p>
+		</div>
+
+		<div class="card">
+			<i class="card-icon fas fa-phone"></i>
+			<p>0948-929-5458</p>
+		</div>
+
+		<div class="card">
+			<i class="card-icon fas fa-map-marker-alt"></i>
+			<p>Brgy City Heights, General Santos City, Philippines</p>
+		</div>		
+	</div>
+	</section>
+
+	<script>
+
+		var navLinks = document.getElementById("navLinks");
+	
+		function showMenu(){
+	
+			navLinks.style.right = "0px";
+		}
+		function hideMenu(){
+	
+		navLinks.style.right = "-180%";
+	}
+	
+	
+	</script>
+
+<footer>
+	<p>Visit our Page&ensp;<a style="text-decoration: none;" href="https://www.facebook.com/aztechcomputerstoregensan/">Aztech Computer Store</a></p>
+</footer>
+</body>
+</html>
